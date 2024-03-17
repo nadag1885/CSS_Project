@@ -201,13 +201,8 @@ header nav .icon i {
 }
 /* end section one */
 /* start sec 2 */
-<<<<<<< HEAD
 .sec-2 .container {
     width: 1000px;
-=======
-    .sec-2 .container {
-    width: 800px;
->>>>>>> refs/remotes/origin/main
     height: 180px;
     margin: 130px auto;
     display: grid;
@@ -284,11 +279,7 @@ header nav .icon i {
 }
 
 .sec-3 .container .cards img {
-<<<<<<< HEAD
     height: 150px;
-=======
-    height: 120px;
->>>>>>> refs/remotes/origin/main
 }
 .sec-3 .container .cards {
     display: grid;
@@ -303,7 +294,6 @@ header nav .icon i {
 }
 /* end section 3 */
 /* start section 4 */
-<<<<<<< HEAD
 .sec-4{
     padding: 30px;
 }
@@ -339,7 +329,7 @@ header nav .icon i {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    height: 220px;
+    height: 180px;
     width: 95%;
 }
 
@@ -363,28 +353,6 @@ header nav .icon i {
     padding: 15px;
     text-align: center;
     border-radius: 30px;
-=======
-.sec-4 .textt {
-    text-align: center;
-    max-width: 500px;
-    margin: 50px auto;
-    color: #a7a6a6;
-    font-size: 13px;
-}
-.sec-4 .container {
-    display: flex;
-    flex-wrap: nowrap;
-}
-.sec-4 .container .right .text {
-    margin-top: 50px;
-}
-.sec-4 .container .right .text p {
-    color: #797979;
-    margin-top: 25px;
-}
-.sec-4 .container .right .oreder {
-    margin-top: 25px;
->>>>>>> refs/remotes/origin/main
 }
 @media (max-width: 1192px) {
     .sec-4 .container .left{
@@ -399,7 +367,6 @@ header nav .icon i {
 }
 /* end section 4 */
 /* start sec 5 */
-<<<<<<< HEAD
 .sec-5{
     background-color:  #eff7fa;
     padding-top: 70px;
@@ -457,26 +424,11 @@ header nav .icon i {
     padding: 10px;
     box-sizing: border-box;
     top: 196px;
-=======
-.sec-5 {
-    background-color:  #eff7fa;
-    padding-bottom: 100px;
-}
-.sec-5 .container .team img{
-    width: 200px;
-
-    
-}
-.sec-5 .container .team{
-    display: flex;
-    justify-content: center;
->>>>>>> refs/remotes/origin/main
 }
 /* end sec 5 */
 /* start sec 6 */
 
 .sec-6 .container{
-<<<<<<< HEAD
     width: 1000px;
     display: flex;
     flex-flow: row;
@@ -485,13 +437,6 @@ header nav .icon i {
 }
 .sec-6 .container img{
     height: 50px;
-=======
-    display: flex;
-    flex-flow: row;
-    padding: 50px;
-    justify-content: center;
-    gap: 80px;
->>>>>>> refs/remotes/origin/main
 }
 /* end sec 6 */
 /* start sec 7 */
@@ -506,19 +451,12 @@ header nav .icon i {
     text-align: center;
     padding: 70px;
 }
-<<<<<<< HEAD
 .sec-7 .container *{
     margin: 20px;
 }
 .sec-7 .container .up p{
     color: rgba(255, 255, 255, 0.6);
 }
-=======
-
-.sec-7 .container *{
-    margin: 20px;
-}
->>>>>>> refs/remotes/origin/main
 /* end sec 7 */
 /* start sec 8 */
 .sec-8 .container{
@@ -535,7 +473,6 @@ header nav .icon i {
 
 }
 .sec-8 .container .blogs{
-<<<<<<< HEAD
     width: 1000px;
     display: grid;
     grid-template-columns: repeat(3,auto) ;
@@ -545,16 +482,6 @@ header nav .icon i {
 }
 .sec-8 .container .blog img {
     width: 320px;
-=======
-    display: grid;
-    grid-template-columns: repeat(3,auto) ;
-    font-size: 12px;
-    justify-content: center;
-    margin: 50px;
-}
-.sec-8 .container .blog{
-    margin: 20px;
->>>>>>> refs/remotes/origin/main
 }
 /* end sec 8 */
 /* start sec 9 */
@@ -667,8 +594,4 @@ footer .col4{
     background-color: #FF3150;
     color: #FFCC00;
     width: 200px;
-<<<<<<< HEAD
-=======
-
->>>>>>> refs/remotes/origin/main
 }
