@@ -448,11 +448,13 @@ header nav .icon i {
     flex-flow: column;
     align-items: center;
     text-align: center;
-    padding: 70px;
+    padding: 70px; 
+    gap: 50px;
 }
 
 .sec-7 .container .up p{
     color: rgba(255, 255, 255, 0.6);
+    margin: 10px;
 }
 /* end sec 7 */
 /* start sec 8 */
