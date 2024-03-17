@@ -137,8 +137,8 @@ header .container nav .login_bottom {
     grid-gap: 10px;
     list-style: none;
     padding: 0;
-  }
-  
+}
+
 .sec-3 ul li {
     padding: 15px 20px;
     text-align: center;
@@ -164,4 +164,161 @@ header .container nav .login_bottom {
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 10px;
+}
+.sec-6 .container .team img{
+    width: 300px;
+}
+.sec-6 .container .member1 img::after{
+    content: "Luke Skywalker";
+    /* color: white; */
+    background-color: #33d1cc;
+    width: 300px;
+
+}
+.sec-6 .container .team{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-7 .container{
+    display: flex;
+    flex-flow: row;
+    padding: 50px;
+    justify-content: center;
+    gap: 80px;
+}
+.sec-8 .container{
+    background-color: #19283f;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+.sec-8 .container *{
+    margin: 20px;
+}
+.sec-9 .container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 70px;
+}
+.sec-9 .container .blog img{
+    height: 150px ;
+}
+.sec-9 .container .blog p{
+    color: rgb(0 0 0 / 40%);
+
+}
+.sec-9 .container .blogs{
+    display: grid;
+    grid-template-columns: repeat(3,auto) ;
+    font-size: 12px;
+    justify-content: center;
+    margin: 50px;
+}
+.sec-9 .container .blog{
+    margin: 20px;
+}
+
+.sec-10 .container{
+    background-color: #FFCC00;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}            
+
+.sec-10 div{
+    color: #19283f;
+    text-align: end;
+}
+.sec-10 input{
+    background-color: #FFCC00;
+    color: white;
+    border: none;
+    border-bottom: 0.5px solid white ;     
+}
+.sec-10 input::placeholder{
+    color: white;
+}
+.sec-10 input:focus{
+    outline: none;
+
+}
+.sec-10 button{
+    background-color: #19283f;
+    color: #FFCC00;
+    width: 200px;
+    
+}
+footer .container{
+    background-color: #19283f;
+    color: #ddd;
+    padding: 70px 100px 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 21% 21% 1fr ;
+    gap: 10px;
+    font-size: 14px;
+
+}
+footer img{
+    width: 50%;
+}
+
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #ddd;
+}
+footer button{
+    width: 100%;
+    color: white !important;
+    margin-top: 30px;
+}
+footer button:hover{
+    color: #FF3150;
+    cursor: pointer;
+    background-color: white;
+}
+footer a:hover{
+    color: #FFCC00;
+}
+footer *{
+    padding-top: 20px;
+}
+
+footer .icons{
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(4 , auto) ;
+    justify-content: flex-start;
+    gap: 10px;
+}
+footer .facebook{
+    color: #347cd2;
+}
+footer .twitter{
+    color: #1ec4ff;
+}
+footer .google{
+    color: #ff4032;
+}
+footer .web{
+    color: #ff3298;
+}
+footer .icons *:hover{
+    font-size: 35px;
+    cursor:pointer
+}
+footer .col4{
+    display: flex;
+    flex-flow: column;
 }
