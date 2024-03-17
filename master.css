@@ -375,7 +375,7 @@ header nav .icon i {
 .sec-5 .container{
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
 }
@@ -388,6 +388,7 @@ header nav .icon i {
     color: rgba(0, 0, 0, 0.6);
 }
 .sec-5 .container .team{
+    width: 100%;
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -423,7 +424,7 @@ header nav .icon i {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    bottom:47% ;
+    bottom:30% ;
 }
 /* end sec 5 */
 /* start sec 6 */
@@ -479,6 +480,7 @@ header nav .icon i {
     gap: 10px;
     font-size: 12px;
     justify-content: space-between;
+    width:  100%;
 }
 
 /* end sec 8 */
@@ -526,12 +528,11 @@ footer{
 }
 footer .container{
     color: #ddd;
-    padding: 70px 100px 20px 100px;
+    padding: 30px 0px 30px 0px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
     font-size: 14px;
-
 }
 footer img{
     width: 50%;
