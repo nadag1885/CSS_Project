@@ -318,50 +318,40 @@ header nav .icon i {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.sec-4 .container {
-    width: 1000px;
+.sec-4 .content {
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.sec-4 .container .left {
+.sec-4 .content .right {
     width: 40%;
 }
+.sec-4 .content .left {
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+}
 
-.sec-4 .container .left .text {
+.sec-4 .content .left .text {
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
-    width: 95%;
+    justify-content: space-evenly;
     height: 200px;
+    margin: 10px;
 }
 
-.sec-4 .container .right {
-    width: 60%;
-}
 
-.sec-4 .container img {
-    width: 100%;
-}
 
-.sec-4 .container .left .text .description {
+.sec-4 .content .left .text .description {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.sec-4 .oreder-bottom {
-    background-color: #ff3150;
-    color: #ffcc00;
-    width: 200px;
-    margin-top: 15px;
-    padding: 15px;
-    text-align: center;
-    border-radius: 30px;
-}
 @media (max-width: 1192px) {
-    .sec-4 .container .left{
+    .sec-4 .container .right{
         display: none;
     }
     .sec-4 .container .right{
