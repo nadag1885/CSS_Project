@@ -110,6 +110,12 @@ header {
     position: absolute;
     z-index: 555;
 }
+header .container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 header nav .right-nav {
     display: flex;
     align-items: center;
