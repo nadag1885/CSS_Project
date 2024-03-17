@@ -202,11 +202,10 @@ header nav .icon i {
 /* end section one */
 /* start sec 2 */
 .sec-2 .container {
-    width: 1000px;
-    height: 180px;
     margin: 130px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
     justify-content: space-between;
     text-align: center;
 }
@@ -217,6 +216,7 @@ header nav .icon i {
     flex-flow: column;
     justify-content: space-between;
     counter-increment: count;
+    margin: 50px;
 }
 
 .sec-2 .container > div::before {
@@ -250,7 +250,9 @@ header nav .icon i {
     background-color: #eff7fa;
     padding-bottom: 100px;
 }
-
+.sec-3 .container {
+    margin: 0 auto;
+}
 .sec-3 ul {
     margin: 80px 0 40px;
     display: grid;
@@ -273,18 +275,15 @@ header nav .icon i {
     color: #ffcc00;
 }
 
-.sec-3 .container {
-    width: 1000px;
-    margin: 0 auto;
-}
+
 
 .sec-3 .container .cards img {
     height: 150px;
 }
 .sec-3 .container .cards {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 .more {
     position: absolute;
@@ -373,7 +372,7 @@ header nav .icon i {
     padding-bottom: 100px;
 }
 .sec-5 .container{
-    width: 1000px;
+    /* width: 1000px; */
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -391,7 +390,8 @@ header nav .icon i {
 .sec-5 .container .team{
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: space-between;
     gap: 20px;
 }
 .sec-5 .container .team > div {
@@ -400,7 +400,7 @@ header nav .icon i {
     background-color: #FFF;
 }
 .sec-5 .container .team img{
-    width: 235px;
+    width: 100%;
 }
 .sec-5 .container .team .member1::after{
     content: "Luke Skywalker";
@@ -423,7 +423,7 @@ header nav .icon i {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    top: 196px;
+    bottom:47% ;
 }
 /* end sec 5 */
 /* start sec 6 */
@@ -463,26 +463,27 @@ header nav .icon i {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-bottom: 70px;
+    text-align: center;       
+    gap:70px;
+    padding-bottom: 100px;
 }
-.sec-8 .container .blog img{
-    height: 150px ;
+
+.sec-8 .container .blog img {
+    width: 300px;
 }
 .sec-8 .container .blog p{
     color: rgb(0 0 0 / 40%);
 
 }
 .sec-8 .container .blogs{
-    width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(3,auto) ;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
     font-size: 12px;
     justify-content: space-between;
-    margin: 50px;
+    align-content: center;
 }
-.sec-8 .container .blog img {
-    width: 320px;
-}
+
 /* end sec 8 */
 /* start sec 9 */
 .sec-9{
@@ -492,8 +493,8 @@ header nav .icon i {
 .sec-9 .container{
     background-color: #FFCC00;
     padding: 20px;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -530,7 +531,7 @@ footer .container{
     color: #ddd;
     padding: 70px 100px 20px 100px;
     display: grid;
-    grid-template-columns: 1fr 21% 21% 1fr ;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
     font-size: 14px;
 
