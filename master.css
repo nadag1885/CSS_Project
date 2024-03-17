@@ -166,13 +166,18 @@ header .container nav .login_bottom {
     gap: 10px;
 }
 .sec-6 .container .team img{
-    width: 300px;
+    width: 250px;
+    position: relative;
+
 }
-.sec-6 .container .member1 img::after{
+.sec-6 .container .member1 img::before{
     content: "Luke Skywalker";
     /* color: white; */
     background-color: #33d1cc;
-    width: 300px;
+    width: 250px;
+    height: 3px;
+    bottom: 0px;
+    position: absolute;
 
 }
 .sec-6 .container .team{
@@ -283,11 +288,7 @@ footer button{
     color: white !important;
     margin-top: 30px;
 }
-footer button:hover{
-    color: #FF3150;
-    cursor: pointer;
-    background-color: white;
-}
+
 footer a:hover{
     color: #FFCC00;
 }
