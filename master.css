@@ -293,3 +293,37 @@ header nav .icon i {
   transform: translateX(-50%);
 }
 /* end section 3 */
+/* start section 4 */
+.sec-4 .textt {
+  text-align: center;
+  max-width: 500px;
+  margin: 50px auto;
+  color: #a7a6a6;
+  font-size: 13px;
+}
+.sec-4 .container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sec-4 .container .right .text {
+  margin-top: 50px;
+}
+.sec-4 .container .right .text p {
+  color: #797979;
+  margin-top: 25px;
+}
+.sec-4 .container .right .oreder {
+    margin-top: 25px;
+}
+@media (max-width: 1192px) {
+    .sec-4 .container .left{
+        display: none;
+    }
+    .sec-4 .container .right{
+        text-align: center;
+    }
+    .sec-4 .container .oreder{
+        margin: auto;
+    }
+}
+/* end section 4 */
