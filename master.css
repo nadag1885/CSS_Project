@@ -329,6 +329,7 @@ header nav .icon i {
     flex-flow: column;
     justify-content: space-between;
     width: 95%;
+    height: 200px;
 }
 
 .sec-4 .container .right {
